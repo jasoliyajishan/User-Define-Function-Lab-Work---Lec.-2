@@ -4,6 +4,8 @@ calc(int n)
 
       int i,a,b;
       do{
+          printf("enter your choice");
+          scanf("%d",&n);
       	if(n==6)
       	{
       		printf("exit....\n");
@@ -54,7 +56,7 @@ calc(int n)
 		  			break;
 		  		}
 			  }
-		  }while(n!=6);
+		  }while(n<6);
 	  
 }
 
@@ -67,7 +69,5 @@ main()
 	printf("press 4 to division\n");
 	printf("press 5 to moduls\n");
 	printf("press 6 to exit\n");
-	printf("enter your choice : \n");
-	scanf("%d",&n);
+
 	calc(n);
-}
