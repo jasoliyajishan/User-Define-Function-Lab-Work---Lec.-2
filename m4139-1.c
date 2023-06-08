@@ -71,3 +71,4 @@ main()
 	printf("press 6 to exit\n");
 
 	calc(n);
+}
