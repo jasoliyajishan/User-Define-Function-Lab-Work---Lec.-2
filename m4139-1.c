@@ -4,7 +4,7 @@ calc(int n)
 
       int i,a,b;
       do{
-          printf("enter your choice");
+          printf("enter your choice : ");
           scanf("%d",&n);
       	if(n==6)
       	{
